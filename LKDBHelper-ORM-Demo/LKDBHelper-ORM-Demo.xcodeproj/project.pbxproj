@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F04AB91E650C8300379DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AB81E650C8300379DE4 /* main.m */; };
+		13F04ABC1E650C8300379DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04ABB1E650C8300379DE4 /* AppDelegate.m */; };
+		13F04ABF1E650C8300379DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04ABE1E650C8300379DE4 /* ViewController.m */; };
+		13F04AC21E650C8300379DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F04AC01E650C8300379DE4 /* Main.storyboard */; };
+		13F04AC41E650C8300379DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F04AC31E650C8300379DE4 /* Assets.xcassets */; };
+		13F04AC71E650C8300379DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F04AC51E650C8300379DE4 /* LaunchScreen.storyboard */; };
+		13F04AD21E650C8400379DE4 /* LKDBHelper_ORM_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AD11E650C8400379DE4 /* LKDBHelper_ORM_DemoTests.m */; };
+		13F04ADD1E650C8400379DE4 /* LKDBHelper_ORM_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04ADC1E650C8400379DE4 /* LKDBHelper_ORM_DemoUITests.m */; };
+		13F04AF61E650CE700379DE4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AEC1E650CE700379DE4 /* FMDatabase.m */; };
+		13F04AF71E650CE700379DE4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AEE1E650CE700379DE4 /* FMDatabaseAdditions.m */; };
+		13F04AF81E650CE700379DE4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AF01E650CE700379DE4 /* FMDatabasePool.m */; };
+		13F04AF91E650CE700379DE4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AF21E650CE700379DE4 /* FMDatabaseQueue.m */; };
+		13F04AFA1E650CE700379DE4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AF51E650CE700379DE4 /* FMResultSet.m */; };
+		13F04B061E650CF200379DE4 /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AFD1E650CF200379DE4 /* LKDB+Mapping.m */; };
+		13F04B071E650CF200379DE4 /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04AFF1E650CF200379DE4 /* LKDBHelper.m */; };
+		13F04B081E650CF200379DE4 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B011E650CF200379DE4 /* LKDBUtils.m */; };
+		13F04B091E650CF200379DE4 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B031E650CF200379DE4 /* NSObject+LKDBHelper.m */; };
+		13F04B0A1E650CF200379DE4 /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B051E650CF200379DE4 /* NSObject+LKModel.m */; };
+		13F04B0D1E650D4000379DE4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F04B0C1E650D4000379DE4 /* libsqlite3.0.tbd */; };
+		13F04B111E650DC800379DE4 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B101E650DC800379DE4 /* BaseModel.m */; };
+		13F04B141E650E5C00379DE4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B131E650E5C00379DE4 /* Person.m */; };
+		13F04B171E650E6500379DE4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B161E650E6500379DE4 /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F04ACE1E650C8400379DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F04AAC1E650C8300379DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F04AB31E650C8300379DE4;
+			remoteInfo = "LKDBHelper-ORM-Demo";
+		};
+		13F04AD91E650C8400379DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F04AAC1E650C8300379DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F04AB31E650C8300379DE4;
+			remoteInfo = "LKDBHelper-ORM-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F04AB41E650C8300379DE4 /* LKDBHelper-ORM-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LKDBHelper-ORM-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04AB81E650C8300379DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13F04ABA1E650C8300379DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F04ABB1E650C8300379DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13F04ABD1E650C8300379DE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13F04ABE1E650C8300379DE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13F04AC11E650C8300379DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F04AC31E650C8300379DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F04AC61E650C8300379DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F04AC81E650C8300379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04ACD1E650C8400379DE4 /* LKDBHelper-ORM-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LKDBHelper-ORM-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04AD11E650C8400379DE4 /* LKDBHelper_ORM_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper_ORM_DemoTests.m; sourceTree = "<group>"; };
+		13F04AD31E650C8400379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04AD81E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LKDBHelper-ORM-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04ADC1E650C8400379DE4 /* LKDBHelper_ORM_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper_ORM_DemoUITests.m; sourceTree = "<group>"; };
+		13F04ADE1E650C8400379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04AEB1E650CE700379DE4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		13F04AEC1E650CE700379DE4 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		13F04AED1E650CE700379DE4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		13F04AEE1E650CE700379DE4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		13F04AEF1E650CE700379DE4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		13F04AF01E650CE700379DE4 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		13F04AF11E650CE700379DE4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		13F04AF21E650CE700379DE4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		13F04AF31E650CE700379DE4 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		13F04AF41E650CE700379DE4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		13F04AF51E650CE700379DE4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		13F04AFC1E650CF200379DE4 /* LKDB+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKDB+Mapping.h"; sourceTree = "<group>"; };
+		13F04AFD1E650CF200379DE4 /* LKDB+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Mapping.m"; sourceTree = "<group>"; };
+		13F04AFE1E650CF200379DE4 /* LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
+		13F04AFF1E650CF200379DE4 /* LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
+		13F04B001E650CF200379DE4 /* LKDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
+		13F04B011E650CF200379DE4 /* LKDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
+		13F04B021E650CF200379DE4 /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		13F04B031E650CF200379DE4 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		13F04B041E650CF200379DE4 /* NSObject+LKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKModel.h"; sourceTree = "<group>"; };
+		13F04B051E650CF200379DE4 /* NSObject+LKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKModel.m"; sourceTree = "<group>"; };
+		13F04B0C1E650D4000379DE4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		13F04B0F1E650DC800379DE4 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		13F04B101E650DC800379DE4 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		13F04B121E650E5C00379DE4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		13F04B131E650E5C00379DE4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		13F04B151E650E6500379DE4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		13F04B161E650E6500379DE4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F04AB11E650C8300379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B0D1E650D4000379DE4 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04ACA1E650C8400379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04AD51E650C8400379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F04AAB1E650C8300379DE4 = {
+			isa = PBXGroup;
+			children = (
+				13F04AB61E650C8300379DE4 /* LKDBHelper-ORM-Demo */,
+				13F04AD01E650C8400379DE4 /* LKDBHelper-ORM-DemoTests */,
+				13F04ADB1E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests */,
+				13F04AB51E650C8300379DE4 /* Products */,
+				13F04B0B1E650D4000379DE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13F04AB51E650C8300379DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F04AB41E650C8300379DE4 /* LKDBHelper-ORM-Demo.app */,
+				13F04ACD1E650C8400379DE4 /* LKDBHelper-ORM-DemoTests.xctest */,
+				13F04AD81E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F04AB61E650C8300379DE4 /* LKDBHelper-ORM-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B0E1E650DA300379DE4 /* Model */,
+				13F04AFB1E650CF200379DE4 /* LKDBHelper */,
+				13F04AEA1E650CE700379DE4 /* fmdb */,
+				13F04ABA1E650C8300379DE4 /* AppDelegate.h */,
+				13F04ABB1E650C8300379DE4 /* AppDelegate.m */,
+				13F04ABD1E650C8300379DE4 /* ViewController.h */,
+				13F04ABE1E650C8300379DE4 /* ViewController.m */,
+				13F04AC01E650C8300379DE4 /* Main.storyboard */,
+				13F04AC31E650C8300379DE4 /* Assets.xcassets */,
+				13F04AC51E650C8300379DE4 /* LaunchScreen.storyboard */,
+				13F04AC81E650C8300379DE4 /* Info.plist */,
+				13F04AB71E650C8300379DE4 /* Supporting Files */,
+			);
+			path = "LKDBHelper-ORM-Demo";
+			sourceTree = "<group>";
+		};
+		13F04AB71E650C8300379DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F04AB81E650C8300379DE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F04AD01E650C8400379DE4 /* LKDBHelper-ORM-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F04AD11E650C8400379DE4 /* LKDBHelper_ORM_DemoTests.m */,
+				13F04AD31E650C8400379DE4 /* Info.plist */,
+			);
+			path = "LKDBHelper-ORM-DemoTests";
+			sourceTree = "<group>";
+		};
+		13F04ADB1E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13F04ADC1E650C8400379DE4 /* LKDBHelper_ORM_DemoUITests.m */,
+				13F04ADE1E650C8400379DE4 /* Info.plist */,
+			);
+			path = "LKDBHelper-ORM-DemoUITests";
+			sourceTree = "<group>";
+		};
+		13F04AEA1E650CE700379DE4 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				13F04AEB1E650CE700379DE4 /* FMDatabase.h */,
+				13F04AEC1E650CE700379DE4 /* FMDatabase.m */,
+				13F04AED1E650CE700379DE4 /* FMDatabaseAdditions.h */,
+				13F04AEE1E650CE700379DE4 /* FMDatabaseAdditions.m */,
+				13F04AEF1E650CE700379DE4 /* FMDatabasePool.h */,
+				13F04AF01E650CE700379DE4 /* FMDatabasePool.m */,
+				13F04AF11E650CE700379DE4 /* FMDatabaseQueue.h */,
+				13F04AF21E650CE700379DE4 /* FMDatabaseQueue.m */,
+				13F04AF31E650CE700379DE4 /* FMDB.h */,
+				13F04AF41E650CE700379DE4 /* FMResultSet.h */,
+				13F04AF51E650CE700379DE4 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		13F04AFB1E650CF200379DE4 /* LKDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				13F04AFC1E650CF200379DE4 /* LKDB+Mapping.h */,
+				13F04AFD1E650CF200379DE4 /* LKDB+Mapping.m */,
+				13F04AFE1E650CF200379DE4 /* LKDBHelper.h */,
+				13F04AFF1E650CF200379DE4 /* LKDBHelper.m */,
+				13F04B001E650CF200379DE4 /* LKDBUtils.h */,
+				13F04B011E650CF200379DE4 /* LKDBUtils.m */,
+				13F04B021E650CF200379DE4 /* NSObject+LKDBHelper.h */,
+				13F04B031E650CF200379DE4 /* NSObject+LKDBHelper.m */,
+				13F04B041E650CF200379DE4 /* NSObject+LKModel.h */,
+				13F04B051E650CF200379DE4 /* NSObject+LKModel.m */,
+			);
+			path = LKDBHelper;
+			sourceTree = "<group>";
+		};
+		13F04B0B1E650D4000379DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B0C1E650D4000379DE4 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13F04B0E1E650DA300379DE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B0F1E650DC800379DE4 /* BaseModel.h */,
+				13F04B101E650DC800379DE4 /* BaseModel.m */,
+				13F04B121E650E5C00379DE4 /* Person.h */,
+				13F04B131E650E5C00379DE4 /* Person.m */,
+				13F04B151E650E6500379DE4 /* Dog.h */,
+				13F04B161E650E6500379DE4 /* Dog.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F04AB31E650C8300379DE4 /* LKDBHelper-ORM-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04AE11E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-Demo" */;
+			buildPhases = (
+				13F04AB01E650C8300379DE4 /* Sources */,
+				13F04AB11E650C8300379DE4 /* Frameworks */,
+				13F04AB21E650C8300379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LKDBHelper-ORM-Demo";
+			productName = "LKDBHelper-ORM-Demo";
+			productReference = 13F04AB41E650C8300379DE4 /* LKDBHelper-ORM-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F04ACC1E650C8400379DE4 /* LKDBHelper-ORM-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04AE41E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-DemoTests" */;
+			buildPhases = (
+				13F04AC91E650C8400379DE4 /* Sources */,
+				13F04ACA1E650C8400379DE4 /* Frameworks */,
+				13F04ACB1E650C8400379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F04ACF1E650C8400379DE4 /* PBXTargetDependency */,
+			);
+			name = "LKDBHelper-ORM-DemoTests";
+			productName = "LKDBHelper-ORM-DemoTests";
+			productReference = 13F04ACD1E650C8400379DE4 /* LKDBHelper-ORM-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F04AD71E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04AE71E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-DemoUITests" */;
+			buildPhases = (
+				13F04AD41E650C8400379DE4 /* Sources */,
+				13F04AD51E650C8400379DE4 /* Frameworks */,
+				13F04AD61E650C8400379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F04ADA1E650C8400379DE4 /* PBXTargetDependency */,
+			);
+			name = "LKDBHelper-ORM-DemoUITests";
+			productName = "LKDBHelper-ORM-DemoUITests";
+			productReference = 13F04AD81E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F04AAC1E650C8300379DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = benbun;
+				TargetAttributes = {
+					13F04AB31E650C8300379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+					};
+					13F04ACC1E650C8400379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13F04AB31E650C8300379DE4;
+					};
+					13F04AD71E650C8400379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13F04AB31E650C8300379DE4;
+					};
+				};
+			};
+			buildConfigurationList = 13F04AAF1E650C8300379DE4 /* Build configuration list for PBXProject "LKDBHelper-ORM-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F04AAB1E650C8300379DE4;
+			productRefGroup = 13F04AB51E650C8300379DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F04AB31E650C8300379DE4 /* LKDBHelper-ORM-Demo */,
+				13F04ACC1E650C8400379DE4 /* LKDBHelper-ORM-DemoTests */,
+				13F04AD71E650C8400379DE4 /* LKDBHelper-ORM-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F04AB21E650C8300379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04AC71E650C8300379DE4 /* LaunchScreen.storyboard in Resources */,
+				13F04AC41E650C8300379DE4 /* Assets.xcassets in Resources */,
+				13F04AC21E650C8300379DE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04ACB1E650C8400379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04AD61E650C8400379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F04AB01E650C8300379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B091E650CF200379DE4 /* NSObject+LKDBHelper.m in Sources */,
+				13F04B081E650CF200379DE4 /* LKDBUtils.m in Sources */,
+				13F04B071E650CF200379DE4 /* LKDBHelper.m in Sources */,
+				13F04ABF1E650C8300379DE4 /* ViewController.m in Sources */,
+				13F04AF81E650CE700379DE4 /* FMDatabasePool.m in Sources */,
+				13F04ABC1E650C8300379DE4 /* AppDelegate.m in Sources */,
+				13F04AF91E650CE700379DE4 /* FMDatabaseQueue.m in Sources */,
+				13F04AB91E650C8300379DE4 /* main.m in Sources */,
+				13F04AF61E650CE700379DE4 /* FMDatabase.m in Sources */,
+				13F04AFA1E650CE700379DE4 /* FMResultSet.m in Sources */,
+				13F04B171E650E6500379DE4 /* Dog.m in Sources */,
+				13F04B111E650DC800379DE4 /* BaseModel.m in Sources */,
+				13F04B061E650CF200379DE4 /* LKDB+Mapping.m in Sources */,
+				13F04B141E650E5C00379DE4 /* Person.m in Sources */,
+				13F04AF71E650CE700379DE4 /* FMDatabaseAdditions.m in Sources */,
+				13F04B0A1E650CF200379DE4 /* NSObject+LKModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04AC91E650C8400379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04AD21E650C8400379DE4 /* LKDBHelper_ORM_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04AD41E650C8400379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04ADD1E650C8400379DE4 /* LKDBHelper_ORM_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F04ACF1E650C8400379DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F04AB31E650C8300379DE4 /* LKDBHelper-ORM-Demo */;
+			targetProxy = 13F04ACE1E650C8400379DE4 /* PBXContainerItemProxy */;
+		};
+		13F04ADA1E650C8400379DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F04AB31E650C8300379DE4 /* LKDBHelper-ORM-Demo */;
+			targetProxy = 13F04AD91E650C8400379DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F04AC01E650C8300379DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F04AC11E650C8300379DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13F04AC51E650C8300379DE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F04AC61E650C8300379DE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F04ADF1E650C8400379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13F04AE01E650C8400379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F04AE21E650C8400379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13F04AE31E650C8400379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13F04AE51E650C8400379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKDBHelper-ORM-Demo.app/LKDBHelper-ORM-Demo";
+			};
+			name = Debug;
+		};
+		13F04AE61E650C8400379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKDBHelper-ORM-Demo.app/LKDBHelper-ORM-Demo";
+			};
+			name = Release;
+		};
+		13F04AE81E650C8400379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LKDBHelper-ORM-Demo";
+			};
+			name = Debug;
+		};
+		13F04AE91E650C8400379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = "LKDBHelper-ORM-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benbun.LKDBHelper-ORM-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LKDBHelper-ORM-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F04AAF1E650C8300379DE4 /* Build configuration list for PBXProject "LKDBHelper-ORM-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04ADF1E650C8400379DE4 /* Debug */,
+				13F04AE01E650C8400379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F04AE11E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04AE21E650C8400379DE4 /* Debug */,
+				13F04AE31E650C8400379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13F04AE41E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04AE51E650C8400379DE4 /* Debug */,
+				13F04AE61E650C8400379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13F04AE71E650C8400379DE4 /* Build configuration list for PBXNativeTarget "LKDBHelper-ORM-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04AE81E650C8400379DE4 /* Debug */,
+				13F04AE91E650C8400379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F04AAC1E650C8300379DE4 /* Project object */;
+}
